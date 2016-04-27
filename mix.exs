@@ -46,7 +46,7 @@ defmodule Arc.Ecto.Mixfile do
   defp deps do
     [
       {:arc, "~> 0.2"},
-      {:ecto, "~> 2.0.0-rc.3"},
+      {:ecto, "~> 1.1.4"},
       {:mock, "~> 0.1.1", only: :test}
     ]
   end
